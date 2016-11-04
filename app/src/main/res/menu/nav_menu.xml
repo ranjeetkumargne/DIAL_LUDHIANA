@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/nearby_places"
+    android:title="Nearby Places"
+    android:icon="@drawable/location"/>
+
+    <item
+        android:id="@+id/ludhiana_official"
+        android:title="Ludhiana Official"
+        android:icon="@drawable/official_ldh2"/>
+
+        <item
+        android:id="@+id/news"
+        android:title="Ludhiana Daily"
+        android:icon="@drawable/news"/>
+
+    <item
+        android:id="@+id/about_ldh"
+        android:title="About Ludhiana"
+        android:icon="@drawable/hastagh"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share App"
+        android:icon="@drawable/share">
+        </item>
+</menu>

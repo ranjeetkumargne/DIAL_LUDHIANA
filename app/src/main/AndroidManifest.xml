@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paritosh.ldh">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ambulance"
+            android:label="@string/title_activity_ambulance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dhaba"
+            android:label="@string/title_activity_dhaba"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DhabaFinal"
+            android:label="@string/title_activity_dhaba_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GasSupply"
+            android:label="@string/title_activity_gas_supply"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GasSupplyFinal"
+            android:label="@string/title_activity_gas_supply_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CinemasFinal"
+            android:label="@string/title_activity_cinemas_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GovtDept"
+            android:label="@string/title_activity_govt_dept"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GovtDeptFinal"
+            android:label="@string/title_activity_govt_dept_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hotels"
+            android:label="@string/title_activity_hotels"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelsFinal"
+            android:label="@string/title_activity_hotels_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Beauty"
+            android:label="@string/title_activity_beauty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BeautyFinal"
+            android:label="@string/title_activity_beauty_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cinemas"
+            android:label="@string/title_activity_cinemas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Education"
+            android:label="@string/title_activity_education"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlaySchool"
+            android:label="@string/title_activity_play_school"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlaySchoolFinal"
+            android:label="@string/title_activity_play_school_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HighSchool"
+            android:label="@string/title_activity_high_school"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SeniorSecondary"
+            android:label="@string/title_activity_senior_secondary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Professional"
+            android:label="@string/title_activity_professional"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Business"
+            android:label="@string/title_activity_business"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessFinal"
+            android:label="@string/title_activity_business_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PoliceStations"
+            android:label="@string/title_activity_police_stations"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PoliceStationsFinal"
+            android:label="@string/title_activity_police_stations_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AmbulanceFinal"
+            android:label="@string/title_activity_ambulance_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Hospitals"
+            android:label="@string/title_activity_hospitals"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GovtHospital"
+            android:label="@string/title_activity_govt_hospital"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GovtHospitalFinal"
+            android:label="@string/title_activity_govt_hospital_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PvtHospital"
+            android:label="@string/title_activity_pvt_hospital"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PvtHospitalFinal"
+            android:label="@string/title_activity_pvt_hospital_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Fire"
+            android:label="@string/title_activity_fire"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FireFinal"
+            android:label="@string/title_activity_fire_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BeautyListView"
+            android:label="@string/title_activity_beauty_list_view"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MensParlour"
+            android:label="@string/title_activity_mens_parlour"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MensParlourFinal"
+            android:label="@string/title_activity_mens_parlour_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".shop"
+            android:label="@string/title_activity_shop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".shopFinal"
+            android:label="@string/title_activity_shop_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EntertainmentList"
+            android:label="@string/title_activity_entertainment_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Attraction"
+            android:label="@string/title_activity_attraction"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AttractionFinal"
+            android:label="@string/title_activity_attraction_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".hotelList"
+            android:label="@string/title_activity_hotel_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".transportCarrier"
+            android:label="@string/title_activity_transport_carrier"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".transportCarrierFinal"
+            android:label="@string/title_activity_transport_carrier_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MapLocation"
+            android:label="MapLocation"
+            android:theme="@style/AppTheme" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Nearby"
+            android:label="@string/title_activity_nearby" />
+        <activity
+            android:name=".Engineering"
+            android:label="@string/title_activity_engineering"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EngineeringFinal"
+            android:label="@string/title_activity_engineering_final"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Medical"
+            android:label="@string/title_activity_medical"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ChildCare"
+            android:label="@string/title_activity_child_care"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Municipality"
+            android:label="@string/title_activity_municipality"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LudhianaDaily"
+            android:label="@string/title_activity_ludhiana_daily"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LudhianaOfficial"
+            android:label="@string/title_activity_ludhiana_official"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AboutLdh"
+            android:label="@string/title_activity_about_ldh"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CusFntTextView"
+            android:label="@string/title_activity_cus_fnt_text_view"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

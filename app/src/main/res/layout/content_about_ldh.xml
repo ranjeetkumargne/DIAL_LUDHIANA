@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="#ff4a4643"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.paritosh.ldh.AboutLdh"
+    tools:showIn="@layout/activity_about_ldh">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:padding="2dp"
+        android:background="@drawable/about_ldh"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2.5"
+        android:padding="25dp"
+        android:background="#ff4a4643">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ldhtxt"
+    android:textSize="18dp"
+    android:background="#ff4a4643"
+    android:textColor="@android:color/primary_text_dark"
+    android:text="Ludhiana is a city and a municipal corporation in Ludhiana district in the Indian state of Punjab, and is the largest city north of Delhi. It is the largest city in the state, with an estimated population of 1,693,653 as of the 2011 Census. It has an area of about 3,767 square kilometres (1,454 sq mi). The city stands on the Sutlej River&apos;s old bank, 13 kilometres (8.1 mi) south of its present course. It is a major industrial centre of northern India, and was referred to as India&apos;s Manchester by the BBC.  Ludhiana is located 98 kilometres (61 mi) west of the state capital Chandigarh on NH 95 and is centrally located on National Highway 1, which runs from the Indian capital New Delhi to Amritsar.  " />
+    </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
